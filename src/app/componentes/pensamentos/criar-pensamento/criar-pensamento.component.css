@@ -1,8 +1,6 @@
 .acoes {
     display: flex;
     justify-content: center;
-    align-items: center;
-    align-content: center;
   }
   
   .botao {
@@ -140,4 +138,10 @@
     color: red;
     margin-top: -25px;
     margin-bottom: 20px;
+  }
+
+  .botao__desabilitado {
+    margin: 5px;
+    margin-top: 70px;
+    width: 200px;
   }

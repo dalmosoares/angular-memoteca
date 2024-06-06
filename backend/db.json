@@ -1,16 +1,10 @@
 {
   "pensamentos": [
     {
-      "id": 2,
-      "conteudo": "Estudando Angular",
-      "autoria": "Dev Alura",
-      "modelo": "modelo2"
-    },
-    {
-      "id": 3,
-      "conteudo": "Angular é o melhor'",
-      "autoria": "Dev Alura",
-      "modelo": "modelo3"
+      "conteudo": "Estudando Angular dalmo",
+      "autoria": "eu sou",
+      "modelo": "modelo1",
+      "id": 2
     },
     {
       "conteudo": "outro",
@@ -19,10 +13,16 @@
       "id": 5
     },
     {
-      "conteudo": "Angular é o melhor'",
-      "autoria": "Dev Alura1",
-      "modelo": "modelo1",
+      "conteudo": "Estudando Angular",
+      "autoria": "EU SOU",
+      "modelo": "modelo2",
       "id": 6
+    },
+    {
+      "conteudo": "Estudando Angular",
+      "autoria": "Dev Alura",
+      "modelo": "modelo3",
+      "id": 7
     }
   ]
 }
