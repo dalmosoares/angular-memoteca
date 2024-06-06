@@ -17,22 +17,22 @@ export class PensamentoService {
   }
 
   criar(pensamento: Pensamento): Observable<Pensamento> {
-    return this.http.post<Pensamento>(this.API, pensamento)
+    return this.http.post<Pensamento>(this.API, pensamento);
   }
 
   excluir(id: number): Observable<Pensamento> {
     const url = `${this.API}/${id}`
-    return this.http.delete<Pensamento>(url)
+    return this.http.delete<Pensamento>(url);
   }
 
   buscarPorId(id: number): Observable<Pensamento> {
     const url = `${this.API}/${id}`
-    return this.http.get<Pensamento>(url)
+    return this.http.get<Pensamento>(url);
   }
 
   editar(pensamento: Pensamento): Observable<Pensamento> {
     const url = `${this.API}/${pensamento.id}`
-    return this.http.put<Pensamento>(url, pensamento )
+    return this.http.put<Pensamento>(url, pensamento );
   }
 
 }
